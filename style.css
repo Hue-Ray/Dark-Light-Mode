@@ -1,0 +1,56 @@
+:root{
+  --light-clr: white;
+  --dark-clr: rgb(20, 20, 20);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+}
+.container{
+  width: auto;
+  height: 100vh;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading{
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.desc{
+  font-size: 16px;
+}
+.toggle-btn{
+  width: 100px;
+}
+.dark-mode{
+  background: var(--dark-clr);
+  color: var(--light-clr);
+}
+.yellow-text{
+  color: rgb(160, 160, 49);
+}
+.green-text{
+  color: rgb(14, 192, 14);
+}
+.red-text{
+  color: red;
+}
+.btn{
+  width: 80px;
+  padding: 10px;
+  border: none;
+  color: black;
+  border-radius: 5px;
+}
+
